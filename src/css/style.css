@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.button {
+    margin-top: 100px;
+  
+    width: 150px;
+    height: 30px;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.tooltip {
+    position: fixed;
+    display: none;
+    height: 45px;
+
+    background-color: #fff;
+    color: #000;
+
+    border: 1px solid darkgray;
+    border-radius: 4px;
+
+}
+
+.tooltip_title {
+    margin: 0;
+
+    background-color: darkgray;
+    border-bottom: 2px solid black;
+}
+
+.tooltip_active {
+    display: block;
+}
